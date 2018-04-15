@@ -24,7 +24,7 @@ def usage():
 def checknull_column(f):
     return df[f].isna().values.any(),('sum :',df[f].isna().values.sum())
 
-ddef checknull():
+def checknull():
     return df.isna().values.any(),('sum :',df.isna().values.sum())		
 
 def sigmoid(x):
